@@ -1,0 +1,16 @@
+title: Esteemed Innovation
+github_username: Esteemed-Innovation
+timezone: America/Los_Angeles
+description: The blog and API documentation for the Esteemed Innovation team
+logo: "/images/logo.png"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  sass_dir: _sass
+redirects: yes
+markdown: kramdown
+remote_theme: daviddarnes/garth
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
